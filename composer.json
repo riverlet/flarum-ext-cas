@@ -1,0 +1,39 @@
+{
+    "name": "riverlet/flarum-ext-cas",
+    "type": "flarum-extension",
+    "description": "CAS login for Flarum",
+    "keywords": ["sso"],
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "riverlet",
+            "email": "mr.riverlet@gmail.com",
+			"homepage": "http://riverlet.me"
+        }
+    ],
+    "support": {
+        "source": "https://github.com/riverlet/flarum-ext-cas.git",
+		"issues": "https://github.com/riverlet/flarum-ext-cas/issues"
+    },
+    "require": {
+		"flarum/core": "^0.1.0-beta.6"
+    },
+    "extra": {
+		"branch-alias": {
+			"dev-master": "0.1.x-dev"
+		},
+        "flarum-extension": {
+            "title": "CAS Login",
+            "icon": {
+                "image": "icon.svg",
+                "backgroundColor": "#fff",
+                "backgroundSize": "cover",
+                "backgroundPosition": "center"
+            }
+        },
+        "flarum-locale": {
+            "code": "zh-cn",
+            "title": "CAS 登录"
+        }
+    }
+}
